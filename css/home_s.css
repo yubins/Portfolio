@@ -1,0 +1,99 @@
+body{
+	border-top: 30px solid #333333;
+	margin:0;
+	line-height:1.4;
+	border-image: url(shadow2.jpg) 27 round;
+	border-bottom:0;
+	border-left:0;
+	border-right:0;
+}
+
+header{
+	width:960px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	background: white;
+	padding-top: 50px;
+	text-align: center;
+}
+
+#navmenu{
+}
+
+#navmenu ul{
+	display:inline-block;
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+
+#navmenu a:hover{
+	color: black;
+	-moz-transition: background-color, color .5s;
+	-webkit-transition:background-color, color .5s;
+	-o-transition: background-color, color, .5s;
+	transition: background-color, color, .5s;	
+}
+
+#navmenu a{
+	text-decoration: none;
+	color: white;
+	-moz-transition: background-color, color .5s;
+	-webkit-transition:background-color, color .5s;
+	-o-transition: background-color, color, .5s;
+	transition: background-color, color, .5s;	
+}
+
+
+.about{
+	width: 60px;	
+	height: 80px;
+	background-image: url('about.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.home{
+	width: 60px;	
+	height: 80px;
+	background-image: url('home.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.works{
+	width: 60px;	
+	height: 80px;
+	background-image: url('works.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+h1{
+	font-size:15px;
+	padding-top: 60px;
+	position: relative;
+
+}
+
+.menutext{
+	bottom: 0px;
+	position: absolute;
+}
+
+#navmenu ul li{
+	margin: 0px 20px;
+}
+
+
+.pagefooter{
+	background-image:url("shadow2.jpg");
+	width:100%;
+	height: 50px;
+	position:fixed;
+	bottom:0px;
+}
