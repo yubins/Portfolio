@@ -1,0 +1,177 @@
+/*body basic setting, here is the top part of my site*/
+/*the shading lines*/
+body{
+	border-top: 30px solid #333333;
+	margin:0;
+	line-height:1.4;
+	border-image: url(shadow2.jpg) 27 round;
+	border-bottom:0;
+	border-left:0;
+	border-right:0;
+}
+
+
+/*header and menu start here.*/
+header{
+	width:960px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	background: white;
+	padding-top: 30px;
+	text-align: center;
+	border-bottom: solid 1px rgba(0,0,0,.5);
+}
+
+#navmenu{
+}
+
+
+#navmenu ul{
+	display:inline-block;
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+
+#navmenu a:hover{
+	color: black;
+	-moz-transition: background-color, color .5s;
+	-webkit-transition:background-color, color .5s;
+	-o-transition: background-color, color, .5s;
+	transition: background-color, color, .5s;	
+}
+
+#navmenu a{
+	text-decoration: none;
+	color: white;
+	-moz-transition: background-color, color .5s;
+	-webkit-transition:background-color, color .5s;
+	-o-transition: background-color, color, .5s;
+	transition: background-color, color, .5s;	
+}
+
+
+.about{
+	width: 60px;	
+	height: 80px;
+	background-image: url('about.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.home{
+	width: 60px;	
+	height: 80px;
+	background-image: url('home.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.works{
+	width: 60px;	
+	height: 80px;
+	background-image: url('works.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+h1{
+	font-size:15px;
+	padding-top: 60px;
+	position: relative;
+
+}
+
+.menutext{
+	bottom: 0px;
+	position: absolute;
+}
+
+#navmenu ul li{
+	margin: 0px 20px;
+}
+
+/*the main contents start here*/
+.maincontent{
+	width: 960px;
+	background-color:white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	border-bottom: solid 1px black;
+}
+
+#myphoto{
+	width: 970px;
+	height: 300px;
+	background-image: url('aboutme.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+	
+}
+
+.aboutcontent{
+	width:871px;
+	height: 350px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	/*background: red;*/
+}
+
+#leftcon {
+	float:left;
+	width: 400px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right: 15px;
+	padding-left: 20px;
+	border-right: 1px solid black;
+	position: relative;
+}
+
+#rightcon {
+	float:left;
+	width: 400px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right: 20px;
+	padding-left: 15px;
+	position: relative;
+}
+
+/*the copy right part and logo part*/
+#logo{
+	margin-top: 30px;
+	text-align: center;
+	bottom:0px;	
+}
+
+#icon{
+	margin-right: auto;
+	margin-left:auto;
+	width: 30px;	
+	height: 25px;
+	background-image: url('logo.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+h2{
+	font-size: 5px;;
+}
+
+.pagefooter{
+	margin-top:15px;
+	background-image:url("shadow2.jpg");
+	width:100%;
+	height: 50px;
+	position:aboslute;
+	bottom:0px;
+}
